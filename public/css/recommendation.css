@@ -1,0 +1,80 @@
+     /* Logo Section */
+
+.recologopic{
+  height: 40vh;
+}
+    /* Logo Section End */
+
+    /* Recommendation Description Section */
+.recodescription{
+  font-size: 1.3rem;
+  line-height: 1.8;
+  padding-top: 15%;
+
+}
+
+      /* Recommendation Description Section End */
+
+      /* Global Recommendation Settings Section */
+.cut-border{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin-bottom: 3rem;
+}
+
+.reco-setting{
+  position: relative;
+  font-family: "Montserrat", Sans-serif;
+  font-style: italic;
+  height: 40rem;
+  color:black;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+.reco-img{
+  margin-top: 7rem;
+  width: 50%;
+}
+    /* Global Recommendation Settings Section End */
+
+    /* Right-Text Recommendation Section */
+.reco-img-left{
+  float: left;
+  padding-right: 5rem;
+}
+
+.reco-abouttext{
+padding: 7% 10% 0 60%;
+justify-content: center;
+}
+    /* Right-Text Recommendation Section End */
+
+    /* Left-Text Recommendation Section */
+.reco-img-right{
+  float:right;
+  margin-right: 5rem;
+}
+
+.reco-coursestext{
+padding: 7% 5% 0 10%;
+justify-content: center;
+}
+    /* Left-Text Recommendation Section End */
+
+    /* Third Recommendation Section */
+.third-reco{
+  height: 45rem;
+}
+
+.third-text{
+  padding: 5% 0% 10% 5%;
+  margin-right: 5rem;
+  overflow: hidden;
+}
+
+.third-img{
+  margin-top: 10rem;
+}
+  /* Third Recommendation Section End */
