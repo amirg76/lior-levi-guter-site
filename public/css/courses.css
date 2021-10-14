@@ -1,0 +1,48 @@
+.courses-logopic{
+  position: absolute;
+  top:10%;
+  left:75%;
+}
+.slogen-courses{
+  position: absolute;
+  top:35%;
+  left:80%;
+  font-size: 2rem;
+  color: white;
+}
+.shortles,.longles{
+  display: flex;
+  margin-bottom:  5rem;
+}
+
+.card{
+padding:0 !important;
+}
+.card iframe{
+  width: 100%;
+
+}
+.practice{
+  margin-left: 3rem;
+}
+.bandel1-head{
+  margin-top: 3rem;
+}
+.bandel1{
+  padding:5% 9%;
+  font-size: 1.5rem;
+}
+.bandel2{
+  padding:5% 9%;
+  font-size: 1rem;
+}
+.btn-bandel1{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.btn-bandel2{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+}

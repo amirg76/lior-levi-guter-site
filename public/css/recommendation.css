@@ -1,7 +1,28 @@
+
+   /* Background-picture Section */
+.reco-logopic{
+  position: absolute;
+  top:10%;
+  left:60%;
+}
+.reco-logo{
+  height: 35vh;
+  margin-left: 3rem;
+  padding-bottom: 2.3rem;
+}
+  /* Background-picture Section End */
+
      /* Logo Section */
 
 .recologopic{
   height: 40vh;
+}
+.slogen-reco{
+  position: absolute;
+  top:35%;
+  left:65%;
+  font-size: 2rem;
+  color: white;
 }
     /* Logo Section End */
 
@@ -9,8 +30,8 @@
 .recodescription{
   font-size: 1.3rem;
   line-height: 1.8;
-  padding-top: 15%;
-
+  padding-top: 10%;
+  margin-bottom: 5rem;
 }
 
       /* Recommendation Description Section End */

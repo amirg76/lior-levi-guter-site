@@ -1,3 +1,15 @@
+.courses-logopic{
+  position: absolute;
+  top:10%;
+  left:75%;
+}
+.slogen-movi{
+  position: absolute;
+  top:35%;
+  left:80%;
+  font-size: 2rem;
+  color: white;
+}
 
 .reco-setting-movipic{
   height: 60rem;
@@ -30,7 +42,6 @@
   justify-content: center;
   width: 100%;
 }
-
 .songs{
   color: #911F27;
   font-weight: bold;

@@ -1,0 +1,23 @@
+.contact-section{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin-bottom: 2rem;
+}
+.btn-send{
+  width: 10%;
+}
+.status{
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.success{
+  background-color: #39A388;
+}
+.error{
+  background-color: #FF0000;
+  color:white;
+ }
