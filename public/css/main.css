@@ -770,7 +770,6 @@ iframe{
   .footer-second{
     display: block;
     float:none;
-
   }
   .footer-third{
     display: block;
@@ -795,10 +794,13 @@ iframe{
   }
 
   .envelope{
-    /* margin-left: 0rem; */
+    margin-left: -1rem;
+
+
   }
   .footer-envelope{
     margin-right: 0rem;
+
   }
 
   .footer-third h3{
