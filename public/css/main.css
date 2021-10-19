@@ -593,8 +593,8 @@ nav li{
   }
 
 .logopic{
-   top:28%;
-   left:83%;
+   top:68%;
+   left:85%;
   }
 
   .logo{
@@ -603,7 +603,7 @@ nav li{
      /* padding-bottom: 2.3rem; */
   }
 
-  .slogen{
+.slogen{
      position: absolute;
      top:80%;
      left:80%;
@@ -618,19 +618,6 @@ nav li{
   font-size: 1.5rem;
 
 }
-
-.logo{
-  /* position: absolute;
-  height: 10vh;
-  margin-top: 0.7rem;
-  margin-left: 1rem; */
-  /* visibility: hidden; */
-}
-
-.logonav{
-  visibility: hidden;
-}
-
  /* About Section */
 
 .about-section{
@@ -671,7 +658,7 @@ nav li{
 
 
 .coursesdecription{
-  height: 63rem;
+  height: 43rem;
   font-size: 1.1rem;
   line-height: 1.2;
 }
@@ -686,6 +673,17 @@ nav li{
   margin-top: 0rem;
   width: 100%;
 
+}
+/* .courses-img{
+  float: right;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+  width: 50%;
+  } */
+
+.courses-img iframe{
+  height: 15rem;
+  width: 90%;
 }
 
 iframe{
@@ -714,8 +712,14 @@ iframe{
 
 .iframe-container{
 
-  width: 60%;
-  margin: 0.5rem auto 1rem;
+  width: 90%;
+  padding-right: 1rem;
+}
+.iframe-container iframe{
+    left: 6%;
+}
+.btn-mov{
+  margin-right: 1rem;
 }
 
 .feedbackdecription{
