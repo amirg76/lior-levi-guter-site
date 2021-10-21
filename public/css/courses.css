@@ -71,7 +71,7 @@ html, body {
 
 @media (max-width:576px){
   video{
-    height: 40rem;
+    height: 41rem;
   }
   .courses-logopic{
     top:35%;
@@ -86,6 +86,7 @@ html, body {
     color: white;
   }
   .phone1{
+
     left:32%;
     font-size: 1.5rem;
   }
@@ -97,7 +98,7 @@ html, body {
     margin-top: 1rem;
   }
   .shortles,.longles{
-    /* width: 80%; */
+    width: 80%;
 
   }
 
