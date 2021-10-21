@@ -1,6 +1,6 @@
 html, body {
     min-height: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: #D4B499;
 }
 .courses-logopic{
@@ -27,7 +27,13 @@ html, body {
   font-size: 2rem;
   color: white;
 }
-
+.container1{
+  width: 80%;
+  margin-left: 10%;
+}
+.recodescription{
+  margin-right: 2rem;
+}
 .shortles,.longles{
   display: flex;
   margin-bottom:  5rem;
@@ -70,6 +76,7 @@ html, body {
 }
 
 @media (max-width:576px){
+
   video{
     height: 41rem;
   }
@@ -93,13 +100,18 @@ html, body {
   .longles{
     display: block;
     min-width: 100vh;
+    width: 100%;
   }
   .card-contact{
     margin-top: 1rem;
   }
   .shortles,.longles{
-    width: 80%;
 
+
+  }
+  .container1{
+
+    margin-left: 15%;
   }
 
 }
