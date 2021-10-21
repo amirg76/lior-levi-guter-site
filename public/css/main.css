@@ -214,10 +214,16 @@ transition: ease .5s;
   margin-left: 2rem;
   margin-top: 2.5rem;
   width: 50%;
+  /* height: 35rem; */
   }
 
 .courses-img iframe{
   height: 35rem;
+  /* position: absolute;
+  top:0;
+  left: 7%;
+  width: 50%;
+  height: 50%; */
 }
   /* Courses Section End*/
 

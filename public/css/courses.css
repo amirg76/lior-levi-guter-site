@@ -1,26 +1,46 @@
+html, body {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #D4B499;
+}
 .courses-logopic{
   position: absolute;
-  top:10%;
-  left:75%;
+  top:30%;
+  left:70%;
+}
+.courses-logo{
+  height: 25vh;
+  margin-left: 3rem;
+  padding-bottom: 2.3rem;
 }
 .slogen-courses{
   position: absolute;
-  top:35%;
-  left:80%;
+  top:65%;
+  left:55%;
   font-size: 2rem;
   color: white;
 }
+.phone1{
+  position: absolute;
+  top:95%;
+  left:40%;
+  font-size: 2rem;
+  color: white;
+}
+
 .shortles,.longles{
   display: flex;
   margin-bottom:  5rem;
 }
-
 .card{
 padding:0 !important;
 }
 .card iframe{
   width: 100%;
 
+}
+.card-contact{
+  margin-top: 5rem;
 }
 .practice{
   margin-left: 3rem;
@@ -31,6 +51,7 @@ padding:0 !important;
 .bandel1{
   padding:5% 9%;
   font-size: 1.5rem;
+
 }
 .bandel2{
   padding:5% 9%;
@@ -45,4 +66,38 @@ padding:0 !important;
   width: 50%;
   margin: auto;
   margin-bottom: 2rem;
+}
+
+@media (max-width:576px){
+  video{
+    height: 40rem;
+  }
+  .courses-logopic{
+    top:35%;
+    left:25%;
+  }
+  .slogen-courses{
+
+    top:60%;
+    left:5%;
+    /* padding-right:3rem; */
+    font-size: 1.5rem;
+    color: white;
+  }
+  .phone1{
+    left:35%;
+    font-size: 1.5rem;
+  }
+  .longles{
+    display: block;
+    min-width: 100vh;
+  }
+  .card-contact{
+    margin-top: 1rem;
+  }
+
+  .recodescription{
+
+  }
+
 }
