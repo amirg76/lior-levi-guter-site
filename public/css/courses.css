@@ -27,13 +27,7 @@ html, body {
   font-size: 2rem;
   color: white;
 }
-.container1{
-  width: 80%;
-  margin-left: 10%;
-}
-.recodescription{
-  margin-right: 2rem;
-}
+
 .shortles,.longles{
   display: flex;
   margin-bottom:  5rem;
@@ -99,7 +93,7 @@ html, body {
   }
   .longles{
     display: block;
-    min-width: 100vh;
+    min-width: 80vh;
     width: 100%;
   }
   .card-contact{
@@ -109,9 +103,6 @@ html, body {
 
 
   }
-  .container1{
 
-    margin-left: 15%;
-  }
 
 }
