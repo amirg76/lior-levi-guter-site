@@ -71,6 +71,7 @@ html, body {
 
 @media (max-width:576px){
 
+
   video{
     height: 41rem;
   }
@@ -92,10 +93,11 @@ html, body {
     font-size: 1.5rem;
   }
   .longles{
-    display: block;
-    min-width: auto;
     
+    display: block;
+
   }
+
   .card-contact{
     margin-top: 1rem;
   }
