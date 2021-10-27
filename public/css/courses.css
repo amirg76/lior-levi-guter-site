@@ -93,8 +93,8 @@ html, body {
   }
   .longles{
     display: block;
-    /* min-width: 100vh; */
-    /* width: 100%; */
+    min-width: auto;
+    
   }
   .card-contact{
     margin-top: 1rem;
