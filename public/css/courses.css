@@ -1,6 +1,6 @@
 html, body {
     min-height: 100%;
-    min-width: auto;
+    min-width: 100%;
     /* overflow-x: hidden; */
     background-color: #D4B499;
 }
