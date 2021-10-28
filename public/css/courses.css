@@ -113,6 +113,11 @@ html, body {
       padding: 0 !important;
       margin:0 !important;
   }
+  .recodescription{
+    text-align: right;
+    /* padding: 10% 3%; */
+  }
+
   .longles{
 
     display: block;
