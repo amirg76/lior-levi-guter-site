@@ -58,15 +58,19 @@ html, body {
 }
 .bandel1-head{
   margin-top: 3rem;
+  color: #800080;
 }
 .bandel1{
   padding:5% 9%;
   font-size: 1.5rem;
-
+  line-height: 1.2;
+  font-family: 'RavMesser atlas';
+  color:#000;
 }
 .bandel2{
   padding:5% 9%;
   font-size: 1rem;
+  font-family: 'RavMesser atlas';
 }
 .btn-bandel1{
   width: 50%;
