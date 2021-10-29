@@ -115,7 +115,15 @@ html, body {
   }
   .recodescription{
     text-align: right;
-    /* padding: 10% 3%; */
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .card{
+    padding:0 1rem;
+    border-radius: 0;
+    border: 0;
+    border-color: white;
+    /* height: 100% !important; */
   }
 
   .longles{
