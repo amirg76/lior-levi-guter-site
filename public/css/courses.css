@@ -142,10 +142,10 @@ html, body {
 
 }
 
-@media (max-width:300px){
+/* @media (max-width:300px){
   .body{
       min-width: 100% !important;
       padding: 0 !important;
       margin:0 !important;
-  }
+  } */
 }
