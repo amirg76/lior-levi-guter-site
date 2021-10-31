@@ -44,12 +44,28 @@ html, body {
 }
 
 .card{
+  position: relative;
   padding: 0;
-  /* height: 100% !important; */
+
+    /* height: 100% !important; */
+}
+.text-card{
+    position: relative;
+    background: url("../img/courses-card-back.jpg");
+    background-size: cover;
+    opacity: 0.7;
+
+}
+.text-card::before{
+  position: absolute;
+  content:'';
+  width: 100%;
+  height:100%;
+  z-index: -1;
+  background: rgba(255, 255, 255, 0.5);
 }
 .card iframe{
   width: 100%;
-
 
 }
 .card-contact{
@@ -65,9 +81,11 @@ html, body {
 .bandel1{
   padding:5% 9%;
   font-size: 1.5rem;
+  font-weight: bold;
   line-height: 1.2;
   font-family: 'RavMesser atlas';
   color:#000;
+
 }
 .bandel2{
   padding:5% 9%;
