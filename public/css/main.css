@@ -184,7 +184,9 @@ transition: ease .5s;
   padding: 3% 5% 3% 60%;
   /* justify-content: center; */
 }
-
+.ptext{
+  text-align: right;
+}
 .about-img{
   float: left;
   margin-right: 2rem;
@@ -631,6 +633,7 @@ nav li{
   font-size: 1.1rem;
   line-height: 1.2;
   margin-top: 705px;
+
 }
 
 .about-img{
@@ -651,6 +654,10 @@ nav li{
 .abouttext{
   padding: 10% 10% 0 10%;
   justify-content: center;
+
+}
+.ptext{
+  text-align: right;
 }
 
 .text-title{
