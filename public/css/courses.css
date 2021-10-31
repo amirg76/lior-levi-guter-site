@@ -87,11 +87,11 @@ html, body {
   color:#000;
 
 }
-.bandel2{
+/* .bandel2{
   padding:5% 9%;
   font-size: 1rem;
   font-family: 'RavMesser atlas';
-}
+} */
 .btn-bandel1{
   width: 50%;
   margin: auto;
@@ -104,11 +104,12 @@ html, body {
 }
 
 @media (max-width:576px){
-
+  video{
+    height: 41rem;
+  }
 
   iframe{
     margin:0;
-    /* height: 42rem; */
   }
   .courses-logopic{
     top:35%;
@@ -143,7 +144,7 @@ html, body {
     border-radius: 0;
     border: 0;
     border-color: white;
-    /* height: 100% !important; */
+    height: 100% !important;
   }
 
   .longles{
@@ -152,7 +153,9 @@ html, body {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
-
+  .text-card{
+    /* height: auto; */
+  }
   .card-contact{
     margin-top: 1rem;
   }
@@ -160,7 +163,12 @@ html, body {
     font-size: 1.2rem;
     text-align: right;
   }
-
+  .btn-bandel1{
+    margin-bottom: 3rem;
+  }
+  .btn-bandel2{
+    margin-bottom: 4rem;
+  }
 }
 
 /* @media (max-width:300px){
