@@ -112,6 +112,7 @@ margin-top:1rem;
 margin-right: 1rem;
 transition: ease .5s;
 display: none;
+font-size: 2rem;
 }
 
 .iconlogonav{
@@ -617,14 +618,15 @@ nav li{
 
   #iconclose{
     display: block;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
   }
   #iconhead{
-    margin-left: 10rem;
-    margin-top: 0.8rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
   }
   .iconlogonav{
-    margin-left: 5rem
+    margin-left: 1rem
   }
   nav ul{
       margin-bottom: 7rem;
@@ -669,7 +671,7 @@ nav li{
   height: 50rem;
   font-size: 1.1rem;
   line-height: 1.2;
-  margin-top: 705px;
+  margin-top: 660px;
 
 }
 
