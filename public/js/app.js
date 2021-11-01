@@ -3,14 +3,16 @@ window.addEventListener("scroll", function(){
   header.classList.toggle("sticky", window.scrollY > 0);
 })
 $(document).ready(function(){
-  $('#icon').click(function(){
-    var x = document.getElementById("iconhead");
+  var x=0;
+  $('#iconclose').click(function(){
+    // var x = document.getElementById("iconhead");
     var y = document.getElementById("iconclose");
+    var t = document.getElementById("iconlogonav");
     console.log(x.innerHTML);
-      if (x.innerHTML === "תפריט ניווט")
+      if (x === 0)
       {
         setTimeout(function(){
-        x.innerHTML='סגור';
+        x=1;
         y.classList.add('fas');
         y.classList.add('fa-times');
         y.classList.remove('fa');
@@ -20,7 +22,7 @@ $(document).ready(function(){
       }
       else {
         setTimeout(function(){
-        x.innerHTML = "תפריט ניווט";
+        x=0;
         y.classList.add('fa');
         y.classList.add('fa-bars');
         y.classList.remove('fas');
