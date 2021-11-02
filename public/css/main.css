@@ -71,11 +71,23 @@ nav.sticky li a{
 
 .logonav{
   position: absolute;
-  height: 5vh;
+  height: 7vh;
   right: 0;
   top: 0;
   margin-right: 4rem;
+  margin-top:2rem;
   border-radius: 50%;
+  display: none;
+}
+.logonav1{
+  position: absolute;
+  height: 7vh;
+  left: 0;
+  top: 0;
+  margin-left: 4rem;
+  margin-top:2rem;
+  border-radius: 50%;
+  display: none;
 }
 
 #icon{
@@ -577,11 +589,12 @@ nav ul{
   margin-left: 8%;
 }
 nav ul.show{
-  top:280px;
+  top:70px;
   left:0;
   transition: ease .3s;
   z-index: 1;
   transform: translate(0%, 0%);
+
 }
 nav li{
   display: block;
@@ -629,15 +642,27 @@ nav li{
     margin-left: 1rem
   }
   nav ul{
-      margin-bottom: 7rem;
+      /* margin-bottom: 7rem; */
   }
   nav{
     padding: 2rem;
   }
 
   nav li{
-    padding-top: 0rem;
+    padding-top: 2rem;
   }
+  nav ul.show{
+    top:70px;
+    left:0;
+    transition: ease .3s;
+    z-index: 1;
+    transform: translate(0%, 0%);
+
+  }
+
+.logonav,.logonav1{
+  display: block;
+}
 
 .logopic{
    top:68%;
@@ -671,7 +696,7 @@ nav li{
   height: 50rem;
   font-size: 1.1rem;
   line-height: 1.2;
-  margin-top: 660px;
+  margin-top: 640px;
 
 }
 

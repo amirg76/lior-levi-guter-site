@@ -5,11 +5,9 @@ window.addEventListener("scroll", function(){
 $(document).ready(function(){
   var x=0;
   $('#iconclose').click(function(){
-    // var x = document.getElementById("iconhead");
     var y = document.getElementById("iconclose");
-    var t = document.getElementById("iconlogonav");
     console.log(x.innerHTML);
-      if (x === 0)
+      if (x == 0)
       {
         setTimeout(function(){
         x=1;
