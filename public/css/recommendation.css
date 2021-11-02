@@ -119,13 +119,13 @@ justify-content: center;
   height: 25rem;
 }
 .reco-logopic{
-  top:40%;
+  top:38%;
 }
 .reco-logo{
   height: 19vh;
 }
 .phone1{
-  left:22%;
+  left:10%;
   font-size: 1rem;
 }
 /* .container{
@@ -168,6 +168,9 @@ justify-content: center;
   padding: 7% 10% 0 10%;
   justify-content: center;
   font-size: 1.2rem;
+}
+.second-reco{
+  height: 45rem;
 }
 .third-reco{
   height: 70rem;

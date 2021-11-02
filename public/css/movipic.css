@@ -53,3 +53,47 @@
   width: 100%;
   height: 100%;
 }
+@media (max-width:576px){
+  video{
+    height: 41rem;
+  }
+
+  iframe{
+    margin:0;
+  }
+  .courses-logopic{
+    top:75%;
+    left:5%;
+  }
+  /* .slogen-courses{
+
+    top:60%;
+    left:5%;
+    padding-right:1rem;
+    font-size: 1.5rem;
+    color: white;
+  } */
+ .phone1{
+    left:8%;
+    top:90%;
+    font-size: 1rem;
+  }
+  .movi1{
+    display:block;
+    margin-bottom: 3rem;
+  }
+  .reco-setting-movipic{
+    height: auto;
+  }
+  .container{
+      min-width: 100% !important;
+      padding: 0 !important;
+      margin:0 !important;
+  }
+  .iframe-container-movpic{
+      width: auto;
+  }
+  .iframe-container-movpic iframe{
+    padding-left: 0rem;
+  }
+}
