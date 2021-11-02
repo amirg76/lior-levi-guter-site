@@ -1,3 +1,11 @@
+body{
+
+  padding:0;
+  margin:0;
+  text-align: center;
+  box-sizing: border-box;
+
+}
 html, body {
     min-height: 100%;
     min-width: 100%;
@@ -19,7 +27,7 @@ html, body {
 .phone1{
   position: absolute;
   top:75%;
-  left:25%;
+  left:24%;
   font-size: 1.5rem;
   color: white;
   font-size: 1.5rem;
@@ -102,19 +110,29 @@ justify-content: center;
   /* Third Recommendation Section End */
 
 @media (max-width:576px){
+  /* .headers{
+    min-width: 100% !important;
+    padding: 0 !important;
+    margin:0 !important;
+  } */
 .headersimg{
   height: 25rem;
 }
 .reco-logopic{
-  top:45%;
+  top:29%;
 }
 .reco-logo{
-  height: 30vh;
+  height: 19vh;
 }
 .phone1{
   left:22%;
   font-size: 1rem;
 }
+/* .container{
+    min-width: 100% !important;
+    padding: 0 !important;
+    margin:0 !important;
+} */
 .recodescription{
   font-size: 1rem;
   margin-bottom: 3rem;
