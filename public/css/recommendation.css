@@ -1,4 +1,8 @@
-
+html, body {
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
    /* Background-picture Section */
 .reco-logopic{
   position: absolute;
