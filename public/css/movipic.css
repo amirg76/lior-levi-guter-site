@@ -84,6 +84,7 @@
   }
   .reco-setting-movipic{
     height: auto;
+
   }
   .container{
       min-width: 100% !important;
@@ -96,4 +97,11 @@
   .iframe-container-movpic iframe{
     padding-left: 0rem;
   }
-}
+  .picture-img{
+    padding-left: 0rem;
+  }
+  .ptext{
+    padding: 0% 10% 0 10%;
+    justify-content: center;
+  }
+  }

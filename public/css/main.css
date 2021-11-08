@@ -212,7 +212,7 @@ font-size: 2rem;
   /* min-height: 100%; */
   /* min-width: 100%; */
   /* background-size: cover; */
-  margin-top: 858px;
+  margin-top: 915px;
 
 }
 
@@ -221,7 +221,7 @@ font-size: 2rem;
   /* justify-content: center; */
 }
 .ptext{
-  text-align: right;
+  text-align: center;
 }
 .about-img{
   float: left;
@@ -271,12 +271,13 @@ font-size: 2rem;
   /* background-color: #865439; */
   background-color: #8C8981;
   color: black;
+  height: 45rem;
 }
 
 .movpic-mov{
   float: left;
   margin-right: 2rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   width: 45%;
 }
 
@@ -696,7 +697,7 @@ nav li{
   height: 50rem;
   font-size: 1.1rem;
   line-height: 1.2;
-  margin-top: 640px;
+  margin-top: 600px;
 
 }
 
@@ -735,7 +736,7 @@ nav li{
 
 
 .coursesdecription{
-  height: 43rem;
+  height: 50rem;
   font-size: 1.1rem;
   line-height: 1.2;
 }
@@ -770,7 +771,7 @@ iframe{
 }
 
 .movpicdecription{
-  height: 50rem;
+  height: 53rem;
   font-size: 1.1rem;
   line-height: 1.2;
 }
