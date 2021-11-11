@@ -192,7 +192,7 @@ font-size: 2rem;
   position: relative;
   /* font-family: "Roboto"; */
   /* font-family: "Poppins", sans-serif; */
-  height: 40rem;
+  height: 45rem;
   color:white;
   font-weight: 500;
   font-size: 1.3rem;
@@ -227,7 +227,7 @@ font-size: 2rem;
 .about-img{
   float: left;
   margin-right: 2rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   width: 50%;
 }
 
@@ -251,7 +251,7 @@ font-size: 2rem;
 .courses-img{
   float: right;
   margin-left: 2rem;
-  margin-top: 2.5rem;
+  margin-top: 5rem;
   width: 45%;
   /* height: 35rem; */
   }
@@ -702,7 +702,7 @@ nav li{
  /* About Section */
 
 .about-section{
-  height: 58rem;
+  height: 62rem;
   /* font-size: 1.1rem; */
   line-height: 1.2;
   margin-top: 615px;
@@ -744,7 +744,7 @@ nav li{
 
 
 .coursesdecription{
-  height: 53rem;
+  height: 55rem;
   /* font-size: 1.1rem; */
   line-height: 1.2;
 }
