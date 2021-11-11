@@ -663,7 +663,6 @@ nav li{
   }
   .hero-wrapper{
     height: auto;
-
  }
 
 .logonav,.logonav1{
@@ -696,13 +695,17 @@ nav li{
   font-size: 1.5rem;
 
 }
+.section-set{
+  font-size: 1.3rem;
+}
+
  /* About Section */
 
 .about-section{
-  height: 50rem;
-  font-size: 1.1rem;
+  height: 58rem;
+  /* font-size: 1.1rem; */
   line-height: 1.2;
-  margin-top: 625px;
+  margin-top: 615px;
 
 }
 
@@ -741,8 +744,8 @@ nav li{
 
 
 .coursesdecription{
-  height: 46rem;
-  font-size: 1.1rem;
+  height: 53rem;
+  /* font-size: 1.1rem; */
   line-height: 1.2;
 }
 
@@ -776,8 +779,8 @@ iframe{
 }
 
 .movpicdecription{
-  height: 53rem;
-  font-size: 1.1rem;
+  height: 64rem;
+  /* font-size: 1.1rem; */
   line-height: 1.2;
 }
 
@@ -806,8 +809,8 @@ iframe{
 }
 
 .feedbackdecription{
-  height: 50rem;
-  font-size: 1.1rem;
+  height: 57rem;
+  /* font-size: 1.1rem; */
   line-height: 1.2;
 }
 
