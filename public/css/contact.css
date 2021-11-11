@@ -1,3 +1,23 @@
+.headersimg{
+  width: 80%;
+  height: 60rem;
+}
+.reco-logopic{
+  position: absolute;
+  top:35%;
+  left:60%;
+}
+.reco-logo{
+  height: 20vh;
+}
+  /* Background-picture Section End */
+
+     /* Logo Section */
+
+.phone1{
+  font-weight: 500;
+  font-size: 1rem;
+}
 .contact-section{
   border: 1px solid;
   padding: 10px;
@@ -21,3 +41,10 @@
   background-color: #FF0000;
   color:white;
  }
+@media (max-width:576px){
+  .reco-logo{
+    height: 40rem;
+    width: 100%;
+  }
+
+}
