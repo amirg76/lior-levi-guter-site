@@ -43,13 +43,14 @@
  }
 @media (max-width:576px){
   .reco-logo{
-    height: 17vh;
+    height: 18vh;
   }
   .headersimg{
     height: 25rem;
   }
   .reco-logopic{
-    top:18%;
+    top:25%;
+    left:55%;
   }
   .phone1{
     left:12%;

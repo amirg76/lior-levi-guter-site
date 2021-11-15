@@ -11,6 +11,9 @@ html, body {
     min-width: 100%;
     overflow-x: hidden;
 }
+.container{
+  max-width: 80%;
+}
    /* Background-picture Section */
 .reco-logopic{
   position: absolute;
