@@ -43,8 +43,26 @@
  }
 @media (max-width:576px){
   .reco-logo{
-    height: 40rem;
+    height: 18vh;
     width: 100%;
+  }
+  .headersimg{
+    height: 25rem;
+  }
+  .reco-logopic{
+    top:18%;
+  }
+  .phone1{
+    left:12%;
+    font-size: 1rem;
+  }
+  .contact-section{
+    min-width: 80% !important;
+    margin: auto !important;
+  }
+  .btn-send{
+    width: 50%;
+    margin-bottom: 5%;
   }
 
 }

@@ -699,6 +699,7 @@ nav li{
   font-size: 1.3rem;
 }
 
+
  /* About Section */
 
 .about-section{
@@ -880,7 +881,8 @@ iframe{
   }
 
   .phone{
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    margin: 0 0 1rem 0;
   }
 
   .envelope{

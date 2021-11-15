@@ -42,6 +42,9 @@ html, body {
   padding: 0;
   min-height: 100vh;
 }
+.push-top{
+  margin-top: -1rem;
+}
 
 .card{
   position: relative;
@@ -137,6 +140,10 @@ html, body {
     text-align: right;
     padding-right: 5%;
     padding-left: 5%;
+    font-size: 1.3rem;
+  }
+  .push-top{
+    margin-top: 1rem;
   }
   .card{
 
