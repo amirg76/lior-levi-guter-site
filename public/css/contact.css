@@ -18,29 +18,22 @@
   font-weight: 500;
   font-size: 1rem;
 }
-.contact-section{
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
-  margin-bottom: 2rem;
+.contact-button{
+  background-color:#1e9a1d !important;
+  border-color:#1e9a1d !important;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  width: 20%;
 }
-.btn-send{
-  width: 10%;
+.contact-button-link{
+  color:#ffffff !important;
 }
-.status{
-  border-radius: 8px;
-  padding: 20px;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 4rem;
+.contact-btn{
+padding: 0.5rem 2.5rem 0.5rem 2.5rem;
 }
-.success{
-  background-color: #39A388;
-}
-.error{
-  background-color: #FF0000;
-  color:white;
- }
+
 @media (max-width:576px){
   .reco-logo{
     height: 18vh;
@@ -49,24 +42,18 @@
     height: 25rem;
   }
   .reco-logopic{
-    top:25%;
+    top:23%;
     left:55%;
   }
   .phone1{
     left:12%;
     font-size: 1rem;
   }
-  .contact-section{
-    min-width: 80% !important;
-    margin: auto !important;
+  .contact-button{
+    width: 75%;
+    margin:0 0 10% 15%;
   }
-  .btn-send{
-    width: 50%;
-    margin-bottom: 5%;
+  .recodescription{
+    padding:15% 2% 0 2%;
   }
-
-  .border{
-    margin:auto 5%;
-  }
-
 }

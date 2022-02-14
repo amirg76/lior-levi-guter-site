@@ -5,9 +5,7 @@ body{
   margin:0;
   text-align: center;
   box-sizing: border-box;
-
 }
-
 html, body {
     min-height: 100%;
     overflow-x: hidden;
@@ -15,13 +13,41 @@ html, body {
 
 /* Navigation Bar Section*/
 
+.iconlogonav{
+  position: absolute;
+  height: 7vh;
+  top:0;
+  left: 0;
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+}
+#iconhead{
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  height: 7vh;
+  top:0;
+  left: 0;
+  margin-top: 1.5rem;
+  margin-left: 10rem;
+  font-family: Courgette;
+}
+#iconclose{
+position: absolute;
+top:0;
+right: 0;
+margin-top:1rem;
+margin-right: 1rem;
+transition: ease .5s;
+display: none;
+font-size: 2rem;
+}
 nav{
     padding: 1rem;
     width: 100%;
     position: fixed;
     top:0;
     z-index: 1;
-    /* background-color: #231E23; */
     background-color: white;
     transition: 0.6s;
  }
@@ -45,14 +71,6 @@ nav li a:hover{
     color:royalblue !important;
     text-decoration: none;
 }
-nav.sticky{
-  background: #fff;
-}
-
-nav.sticky li a{
-  color:#000;
-}
-
 .contact {
   color: #fff;
   background-color: #007791;
@@ -65,6 +83,7 @@ nav.sticky li a{
   transition: .3s ease;
 }
 
+/* Small Screen Nav Bar Section  */
 .logonav{
   position: absolute;
   height: 7vh;
@@ -85,119 +104,57 @@ nav.sticky li a{
   border-radius: 50%;
   display: none;
 }
+/* Small Screen Nav Bar Section End  */
 
-#icon{
-
-  position: absolute;
-  top:0;
-  right: 0;
-  margin-right: 4rem;
-
-
-  cursor: pointer;
-  font-size: 1.5rem;
-  margin-top:  0rem;
-  align-items: center;
-  display: none;
-  height: 5vh;
-}
-#iconhead{
-  display: inline-block;
-  text-align: left;
-  position: absolute;
-  height: 7vh;
-  top:0;
-  left: 0;
-  margin-top: 1.5rem;
-  margin-left: 10rem;
-  font-family: Courgette;
-}
-#iconclose{
-position: absolute;
-top:0;
-right: 0;
-margin-top:1rem;
-margin-right: 1rem;
-transition: ease .5s;
-display: none;
-font-size: 2rem;
-}
-
-.iconlogonav{
-  position: absolute;
-  height: 7vh;
-  top:0;
-  left: 0;
-  margin-top: 0.5rem;
-  margin-left: 5rem;
-
-  /* border-radius: 50%; */
-}
- /* Headers Section  */
-
- figure{
-   /* margin: 0;
-   position: relative; */
- }
-
- video{
-   /* width: 100%;
-   max-width: 100%; */
- }
+ /* Open Video Page Section  */
 
  .hero-wrapper{
    position: fixed;
-   bottom: 0;
-   right: 0;
+   /* bottom: 0; */
+   /* right: 0; */
    height: 50rem;
-   width: auto;
-   min-height: 100%;
-   min-width: 100%;
+   /* width: auto; */
+   /* min-height: 100%; */
+   /* min-width: 100%; */
    z-index: -9999;
-
 }
-
 .headersimg{
   width: 100%;
 }
-
 .logopic{
   position: absolute;
-  top:30%;
-  left:72%;
+  top:60%;
+  left:85%;
 }
-
 .logo{
     height: 25vh;
     margin-left: 0rem;
     padding-bottom: 2.3rem;
 }
-
 .slogen{
     position: absolute;
     top:75%;
-    left:55%;
+    left:50%;
     font-size: 2rem;
     color: white;
   }
 
-  /* Headers Section End */
-
   /* Global Section Settings */
+
 .section-set{
   position: relative;
-  /* font-family: "Roboto"; */
-  /* font-family: "Poppins", sans-serif; */
-  height: 45rem;
+  height: 52rem;
   color:white;
   font-weight: 500;
   font-size: 1.3rem;
   line-height: 1.8;
 }
-
-
 .btn{
   margin-top: 1rem !important;
+}
+.underline{
+  width: 120px;
+  height: 120px;
 }
   /* Global Section Settings End */
 
@@ -205,26 +162,18 @@ font-size: 2rem;
 
 .about-section{
   background-color: #171717;
-  /* background-color: #212529; */
-  /* min-height: 100%; */
-  /* min-width: 100%; */
-  /* background-size: cover; */
   margin-top: 925px;
-
+  height: 65rem;
 }
-
 .abouttext{
-  padding: 3% 5% 3% 60%;
-  /* justify-content: center; */
-}
-.ptext{
-  text-align: center;
+  padding: 3% 5% 3% 30%;
 }
 .about-img{
   float: left;
   margin-right: 2rem;
-  margin-top: 6rem;
-  width: 50%;
+  margin-top: 12rem;
+  margin-left: 2rem;
+  width: 30%;
 }
 
 .img-fluid{
@@ -235,99 +184,82 @@ font-size: 2rem;
   /* Courses Section */
 
 .coursesdecription{
-  /* background-color: #595959; */
   background-color: #262626;
-  /* background-color: #343a40; */
 }
-
 .coursestext{
-  padding: 7% 0% 0 5%;
+  padding: 4% 0% 0 5%;
 }
+.courses-mov{
 
-.courses-img{
+}
+.courses-video{
   float: right;
   margin-left: 2rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
   width: 45%;
-  /* height: 35rem; */
-  }
-
-.courses-img iframe{
+}
+.courses-video video{
   height: 35rem;
-  /* position: absolute;
-  top:0;
-  left: 7%;
-  width: 50%;
-  height: 50%; */
+}
+.btn-courses{
+  margin-right: 50%;
 }
   /* Courses Section End*/
 
   /* Movies Pictures Section */
+
 .movpicdecription{
-  /* background-color: #362222; */
-  /* background-color: #865439; */
   background-color: #8C8981;
   color: black;
-  height: 50rem;
+  height: 48rem;
 }
-
 .movpic-mov{
   float: left;
   margin-right: 2rem;
-  margin-top: 7rem;
+  margin-top: 10rem;
   width: 45%;
 }
-
 .movpictext{
-  padding: 3% 5% 3% 60%;
+  padding: 3% 7% 3% 60%;
 }
-
-.iframe-container{
+.movi-iframe{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
 }
-
-.iframe-container iframe{
+.movi-iframe video{
   position: absolute;
   top:0;
   left: 7%;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
     /* Movies Pictures Section End */
 
     /* Feedback Section */
 .feedbackdecription{
-  /* background-color: #C1AC95; */
   background-color: #A6A198;
+  height: 45rem;
 }
-
 .feedback-exmpale{
   float: right;
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 50%;
-}
 
+}
 .feedback-img{
   width: 50%;
   margin-left: 10rem;
 }
-
 .feedbacktext{
-  padding: 5% 10% 0 10%;
+  padding: 5% 50% 0 10%;
   color:black;
 }
-
 .feedback-personal{
   color: #911F27;
   font-weight: bold;
 }
-
-.quote-start{
-  display:inline-block;
-}
-
 .feedback-btn{
   padding: 0.5rem 2.5rem;
 }
@@ -335,94 +267,32 @@ font-size: 2rem;
 
     /* Footer Section*/
 .footer{
-  /* height: 40rem; */
-
-  width: 100vw;
-  display: block;
-  overflow: hidden;
   padding: 70px 0;
-  box-sizing: border-box;
-  /* background-color: #181828 !important; */
   background-color: #221F26;
-
 }
-
 .footer-center{
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-
-
+    width: 100%;
 }
-
-.footer-center-about-img{
-  width: 35%;
-  float: right;
-  height: 100%;
-  display: block;
-  margin-right: 5rem;
-}
-
-.footer-center-img{
-  /* width: 5rem; */
-  height: auto;
-  /* border-radius: 50% ; */
-  width: 30%;
-
-}
-
 .footer-first{
   display: inline-block;
   width: 33%;
-
   float:right;
 }
 .footer-second{
   display: inline-block;
   width: 33%;
-
 }
 .footer-third{
   display: inline-block;
   width: 33%;
-    float:left;
+  float:left;
 }
-
-.first-img{
+.footer-img{
   height: auto;
-  /* border-radius: 50% ; */
   width: 30%;
-
-}
-
-
-
-
-
-.footer-center-abouttext{
-  float: left;
-  padding: 2% 20% 0 40%;
-  justify-content: center;
-  color: white;
-
-}
-.footer-bottom {
-    /* padding: 25px 0; */
-    /* border-top: 1px solid #313646; */
-    /* color: #b0b0b0;
-    font-family: rubik;
-    margin-left:35%; */
-
-    width: 35%;
-
-    /* float:none; */
-    height: 100%;
-
-
 }
 .footer-site-info {
-    color:white;
+    color:blue;
     padding-right: 3%;
     margin-top: 1rem;
 }
@@ -473,13 +343,6 @@ a.socials-item {
     text-rendering: auto;
 }
 
-.footer-top {
-    width: 35%;
-    /* margin-right: 1rem; */
-    float: right;
-    height: 100%;
-
-}
 .footer-phone{
   /* width: 40%; */
   height: 100%;
@@ -657,21 +520,36 @@ nav li{
     transform: translate(0%, 0%);
 
   }
-  .hero-wrapper{
-    height: auto;
+  .contact {
+    padding: 0.25rem 0.7rem 0.4rem 0.7rem;
+  }
+  .headersimg{
+   /* width: 100%; */
+   height: 25rem;
  }
+ .logopic{
+   position: absolute;
+   top:60%;
+   left:85%;
+ }
+  .hero-wrapper{
+    height: 25rem;
+  }
 
 .logonav,.logonav1{
   display: block;
 }
 
 .logopic{
-   top:68%;
-   left:85%;
+   /* top:68%; */
+   top:50%;
+   /* left:85%; */
+   left:65%;
   }
 
   .logo{
-     height: 23vh;
+     /* height: 23vh; */
+     height: 19vh;
      margin-left: 1rem;
      /* padding-bottom: 2.3rem; */
   }
@@ -699,11 +577,11 @@ nav li{
  /* About Section */
 
 .about-section{
-  height: 62rem;
+  height: 108rem;
   /* font-size: 1.1rem; */
   line-height: 1.2;
-  margin-top: 615px;
-
+  /* margin-top: 615px; */
+  margin-top: 375px;
 }
 
 .about-img{
@@ -741,7 +619,7 @@ nav li{
 
 
 .coursesdecription{
-  height: 55rem;
+  height: 75rem;
   /* font-size: 1.1rem; */
   line-height: 1.2;
 }
@@ -751,24 +629,34 @@ nav li{
   justify-content: center;
 }
 
-.courses-img{
-  margin-left: 2rem;
+.courses-mov{
   margin-top: 0rem;
   width: 100%;
-
 }
-/* .courses-img{
-  float: right;
-  margin-left: 2rem;
-  margin-top: 2.5rem;
-  width: 50%;
-  } */
+.courses-video{
+  margin-top: 1rem;
+  position: absolute;
+  right: 5%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-bottom: 7%;
+}
+.courses-video video{
+  position: absolute;
+  right:  0%;
+  width: 90%;
+  height: 100%;
+}
 
 .courses-img iframe{
   height: 15rem;
   width: 90%;
 }
-
+.btn-courses{
+  margin-left: 20%;
+}
 iframe{
   height: 15rem;
   width: 60%;
@@ -776,7 +664,7 @@ iframe{
 }
 
 .movpicdecription{
-  height: 62rem;
+  height: 67rem;
   /* font-size: 1.1rem; */
   line-height: 1.2;
 }
@@ -793,12 +681,18 @@ iframe{
   justify-content: center;
 }
 
-.iframe-container{
+.movi-iframe{
+  margin-top: 7%;
+  width: 100%;
 
-  width: 90%;
-  padding-right: 1rem;
 }
-.iframe-container iframe{
+.movi-iframe video{
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+}
+.movi-iframe iframe{
     left: 6%;
 }
 .btn-mov{
@@ -806,7 +700,7 @@ iframe{
 }
 
 .feedbackdecription{
-  height: 57rem;
+  height: 63rem;
   /* font-size: 1.1rem; */
   line-height: 1.2;
 }
@@ -863,7 +757,7 @@ iframe{
     float:none;
   }
 
-  .first-img{
+  .footer-img{
     height: auto;
     width: 50%;
   }

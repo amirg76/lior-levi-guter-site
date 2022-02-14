@@ -22,7 +22,10 @@
   width: 40rem;
 
 }
-
+.iframe-container-movpic video{
+   height:100%   !important;
+   object-fit: cover;
+ }
 .iframe-container-movpic iframe{
   padding-left: 1rem;
   width: 100%;

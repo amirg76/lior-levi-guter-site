@@ -12,21 +12,24 @@ html, body {
 .courses-logo{
   height: 25vh;
   margin-left: 3rem;
-  padding-bottom: 2.3rem;
+  /* padding-bottom: 2.3rem; */
 }
 .slogen-courses{
   position: absolute;
-  top:60%;
-  left:55%;
+  top:70%;
+  left:62%;
   font-size: 2rem;
   color: white;
 }
 .phone1{
   position: absolute;
-  top:80%;
-  left:73%;
+  top:77%;
+  left:72%;
   font-size: 2rem;
   color: white;
+}
+.recodescription{
+  padding: 5% 15% 0;
 }
 
 .shortles,.longles{
@@ -71,6 +74,10 @@ html, body {
   width: 100%;
 
 }
+.myvideo video{
+width: 100%    !important;
+height: auto   !important;
+}
 .card-contact{
   margin-top: 5rem;
 }
@@ -98,7 +105,7 @@ html, body {
 .btn-bandel1{
   width: 50%;
   margin: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .btn-bandel2{
   width: 50%;
@@ -108,15 +115,17 @@ html, body {
 
 @media (max-width:576px){
   video{
-    height: 41rem;
+     height: auto   !important;
+   }
+.headers video{
+    height: 41rem !important;
   }
-
-  iframe{
+   iframe{
     margin:0;
   }
   .courses-logopic{
     top:35%;
-    left:25%;
+    left:35%;
   }
   .slogen-courses{
 
@@ -138,6 +147,7 @@ html, body {
   }
   .recodescription{
     text-align: right;
+    padding: 10%;
     padding-right: 5%;
     padding-left: 5%;
     font-size: 1.3rem;
@@ -168,7 +178,7 @@ html, body {
   }
   .bandel1{
     font-size: 1.2rem;
-    text-align: right;
+    text-align: center;
   }
   .btn-bandel1{
     margin-bottom: 3rem;
